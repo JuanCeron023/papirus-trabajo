@@ -1,0 +1,125 @@
+package Vacunas.Interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+import java.awt.Color;
+import javax.swing.JComboBox;
+
+public class panelDatos extends JPanel {
+
+
+	private JPanel contentPane;
+	private JTextField textField_3;
+	private JTextField textField_4;
+	private JTextField textField_5;
+	private JTextField textField_6;
+	private JTextField textField_7;
+	private JTextField textField;
+
+	/**
+	 * Create the frame.
+	 */
+	public panelDatos() {
+	this.setLayout(null);
+		
+		JLabel lblTipoId = new JLabel("Tipo ID: *");
+		lblTipoId.setBounds(35, 52, 148, 14);
+		add(lblTipoId);
+		
+		textField_3 = new JTextField();
+		textField_3.setColumns(10);
+		textField_3.setBounds(175, 80, 197, 20);
+		add(textField_3);
+		
+		JLabel lblNewLabel_1_1 = new JLabel("Nombres:  *");
+		lblNewLabel_1_1.setBounds(35, 85, 148, 14);
+		add(lblNewLabel_1_1);
+		
+		JLabel lblApellidos = new JLabel("Apellidos: *");
+		lblApellidos.setBounds(35, 121, 148, 14);
+		add(lblApellidos);
+		
+		textField_4 = new JTextField();
+		textField_4.setColumns(10);
+		textField_4.setBounds(175, 115, 197, 20);
+		add(textField_4);
+		
+		textField_5 = new JTextField();
+		textField_5.setColumns(10);
+		textField_5.setBounds(175, 149, 197, 20);
+		add(textField_5);
+		
+		JLabel lblNewLabel_1_2 = new JLabel("No. Celular: *");
+		lblNewLabel_1_2.setBounds(35, 154, 148, 14);
+		add(lblNewLabel_1_2);
+		
+		JLabel lblTelefono = new JLabel("Telefono: *");
+		lblTelefono.setBounds(35, 187, 148, 14);
+		add(lblTelefono);
+		
+		textField_6 = new JTextField();
+		textField_6.setColumns(10);
+		textField_6.setBounds(175, 181, 197, 20);
+		add(textField_6);
+		
+		textField_7 = new JTextField();
+		textField_7.setColumns(10);
+		textField_7.setBounds(175, 215, 197, 20);
+		add(textField_7);
+		
+		JLabel lblNewLabel_1_3 = new JLabel("Correo electr\u00F3nico: *");
+		lblNewLabel_1_3.setBounds(35, 220, 148, 14);
+		add(lblNewLabel_1_3);
+		
+		JLabel lblDepartamento = new JLabel("Departamento: *");
+		lblDepartamento.setBounds(35, 258, 148, 14);
+		add(lblDepartamento);
+		
+		JLabel lblNewLabel_1_4 = new JLabel("Ciudad / Municipio: *");
+		lblNewLabel_1_4.setBounds(35, 291, 148, 14);
+		add(lblNewLabel_1_4);
+		
+		JLabel lblDireccion = new JLabel("Direccion: *");
+		lblDireccion.setBounds(35, 324, 148, 14);
+		add(lblDireccion);
+		
+		textField = new JTextField();
+		textField.setColumns(10);
+		textField.setBounds(175, 318, 197, 20);
+		add(textField);
+		
+		JButton btnNewButton = new JButton("Actualizar");
+		btnNewButton.setBackground(new Color(0, 153, 255));
+		btnNewButton.setBounds(99, 359, 99, 33);
+		btnNewButton.setForeground(new Color(255, 255, 255));
+		add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("Cancelar");
+		btnNewButton_1.setBackground(new Color(192, 192, 192));
+		btnNewButton_1.setForeground(new Color(0, 0, 0));
+		btnNewButton_1.setBounds(231, 359, 111, 33);
+		add(btnNewButton_1);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBackground(new Color(255, 255, 255));
+		comboBox.setBounds(175, 49, 197, 20);
+		add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setBackground(Color.WHITE);
+		comboBox_1.setBounds(175, 251, 197, 20);
+		add(comboBox_1);
+		
+		JComboBox comboBox_2 = new JComboBox();
+		comboBox_2.setBackground(Color.WHITE);
+		comboBox_2.setBounds(175, 285, 197, 20);
+		add(comboBox_2);
+	}
+}

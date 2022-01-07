@@ -1,0 +1,36 @@
+package Vacunas.Interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+
+public class panelBuscar extends JPanel {
+
+	private JPanel contentPane;
+	private JTextField textField;
+
+	/**
+	 * Create the frame.
+	 */
+	public panelBuscar() {
+		
+		textField = new JTextField();
+		textField.setBounds(116, 27, 142, 20);
+		textField.setColumns(10);
+		this.add(textField);
+		
+		JLabel lblNewLabel = new JLabel("Identificaci\u00F3n");
+		lblNewLabel.setBounds(10, 30, 96, 14);
+		this.add(lblNewLabel);
+		
+		JButton btnNewButton = new JButton("Consultar");
+		btnNewButton.setBounds(319, 26, 89, 23);
+		this.add(btnNewButton);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;org.eclipse.papyrus.javagen.Vacunas&apos;&#x0D;&#x0A;- Original project: &apos;org.eclipse.papyrus.javagen.Vacunas&apos;&#x0D;&#x0A;- Original element: &apos;Vacunas.Interfaz.fr.java&apos;" description="Delete element" element1="/src&lt;Vacunas.Interfaz{fr.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1621696689147" subPackages="false" version="1.0"/>
+</session>

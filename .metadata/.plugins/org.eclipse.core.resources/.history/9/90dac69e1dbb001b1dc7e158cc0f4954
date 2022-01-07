@@ -1,0 +1,45 @@
+package Vacunas.Interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+public class panelDatos extends JPanel {
+
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+
+	/**
+	 * Create the frame.
+	 */
+	public panelDatos() {
+	this.setLayout(null);
+		
+		textField = new JTextField();
+		textField.setBounds(173, 25, 119, 20);
+		textField.setColumns(10);
+		this.add(textField);
+		
+		JLabel lblNewLabel = new JLabel("Identificaci\u00F3n:");
+		lblNewLabel.setBounds(74, 27, 89, 14);
+		this.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("Identificaci\u00F3n:");
+		lblNewLabel_1.setBounds(74, 60, 89, 14);
+		add(lblNewLabel_1);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(173, 59, 119, 20);
+		add(textField_1);
+	}
+
+}
